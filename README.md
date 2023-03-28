@@ -2,7 +2,7 @@
 Build a Search Engine for movie plot summaries using tf-idf technique in MapReduce
 
 Steps:
-1. Upload the movie summaries file 'plot_summaries.txt' Databricks.
+1. Upload the movie summaries file 'plot_summaries.txt' from http://www.cs.cmu.edu/~ark/personas/data/MovieSummaries.tar.gz to Databricks.
 2. remove stopwords by using NLTK Stopword Library.
 3. Create a tf-idf for every term and every document using the MapReduce method in PySpark.
 4. Read the search terms from user and output following:
